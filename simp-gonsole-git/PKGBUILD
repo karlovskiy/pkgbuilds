@@ -1,14 +1,13 @@
 # Maintainer: ravenstar <yexella at gmail dot com>
 
-pkgname=gled-git
-pkgver=r6.85e9079
+pkgname=simp-gonsole
+pkgver=r2.c838d28
 pkgrel=1
-pkgdesc="Logitech G102 and G203 Prodigy Mouse LED control"
+pkgdesc="Simp console client"
 arch=('x86_64')
 url="https://github.com/karlovskiy/${pkgname%-git}"
 license=('MIT')
 makedepends=('git' 'go')
-depends=('libusb')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 source=("git+${url}.git")
